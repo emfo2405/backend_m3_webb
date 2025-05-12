@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<title>CV</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/stylesheet.css">
+<script type="module" src="js/main.js"></script>
+</head>
+<body>
+    <main>
+        <h1>Lägg till en erfarenhet i ditt CV</h1>
+        <!--Meny skapad för sidan-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Start</a></li>
+                <li><a href="add.html">Lägg till</a></li>
+                <li><a href="about.html">Om</a></li>
+            </ul>
+        </nav>
+
+        <!--Formulär för att mata in ny information-->
+        <div id="experience-form">
+            <form>
+            <label for="companyName">Företagets namn:</label>
+            <input type="text" id="companyName" name="companyName" placeholder="Företagets namn...">
+            <label for="jobTitle">Title:</label>
+            <input type="text" id="jobTitle" name="jobTitle" placeholder="Din titel...">
+            <label for="place">Stad:</label>
+            <input type="text" id="place" name="place" placeholder="Stad...">
+            <label for="startDate">Startdatum:</label>
+            <input type="text" id="startDate" name="startDate" placeholder="Startdatum (yyyy-mm-dd)...">
+            <label for="endDate">Slutdatum:</label>
+            <input type="text" id="endDate" name="endDate" placeholder="Slutdatum (yyyy-mm-dd)...">
+            <label for="jobDescription">Beskrivning:</label>
+            <textarea id="jobDescription" name="jobDescription" placeholder="Beskrivning..."></textarea>
+
+            <input id="cvsubmit-button" type="submit" value="Submit">
+  </form>
+</div>
+    </main>
+
+
+</body>
+</html>

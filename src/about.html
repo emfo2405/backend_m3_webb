@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<title>CV</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body>
+    <main>
+        <h1>Om</h1>
+        <nav>
+            <!--Meny skapad för sidor-->
+            <ul>
+                <li><a href="index.html">Start</a></li>
+                <li><a href="add.html">Lägg till</a></li>
+                <li><a href="about.html">Om</a></li>
+            </ul>
+        </nav>
+        <!--Div för att visa text om uppgift-->
+        <div id="about-text">
+        <p>
+            Syftet med webbplatsen är att visa inlägg från ett CV på startsidan. Det finns även möjlighet att lägga till nya inlägg på "lägg till"-sidan, vilket uppdaterar listan. Informationen som visas på webbplatsen kommer från en databas där alla arbetslivserfarenheter sparas. För att visa upp listan över erfarenheter
+            görs ett GET-anrop till databasen för att sedan skapa en lista över elementen. För att lägga till en ny erfarenhet i databasen görs ett POST-anrop till databasen där man skickar med den information som det nya inlägget ska innehålla. Till sist kan även ett DELETE-anrop göras för att radera ett visst element i listan. 
+            Detta görs baserat på det unika id som varje rad i databasen får. <br>
+            <br> För att skapa databasen har MongoDB använts. <br>
+            <br> Genom den här uppgiften fick jag testa på att använda en annan databas-server och fick bekanta mig med MongoDB. Jag tycker att det var väldigt smidigt att arbeta med MongoDB och det kändes lättare att skapa GET, POST, PUT och DELETE anrop än med Postgres som användes i moment 2.
+            Jag fick också arbeta med att skapa ett API och använda det på en separat webbplats. Jag tyckte att det var väldigt smidigt att arbeta med ett eget API på det här sättet där man inte behöver jättemycket JavaScript-kod i 
+            frontend-delen, utan allt kändes väldigt tydligt och effektiviserat.  
+        </p>
+        </div>
+    </main>
+
+
+</body>
+</html>

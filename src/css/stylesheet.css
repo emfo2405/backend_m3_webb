@@ -1,0 +1,119 @@
+/*Färg och design för bakgrunder*/
+body {
+    background-color: #93a18b;
+}
+
+main {
+    background-color: rgb(241, 230, 213);
+    width: 900px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 2px #4d5746;
+    padding-bottom: 10%;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+/*Design av meny*/
+nav {
+    overflow: hidden;
+    background-color: #93a18b;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    float: left;
+    display: block;
+    padding: 14px 20px;
+    text-align: center;
+    margin-top: -16px;
+    font-size: 120%;
+}
+
+nav a:hover {
+    background-color: rgb(107, 118, 97);
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+/*Design av formulär*/
+form {
+    margin-top: 5%;
+}
+
+input, textarea {
+    width: 80%;
+    padding: 2%;
+    margin: 10%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: rgb(217, 207, 193);
+    border-bottom: 5px solid #93a18b;
+    border-right: 5px solid #93a18b;
+  }
+  
+  label {
+    margin-left: 10%;
+    font-size: 120%;
+  }
+  
+  #form-title {
+  text-align: center;
+  padding-top: 5%;
+  }
+
+  #cvsubmit-button {
+    width: 20%;
+    margin-left: 40%;
+    background-color: #93a18b;
+    border-bottom: 5px solid rgb(107, 118, 97);
+    border-right: 5px solid rgb(107, 118, 97);
+  }
+
+  #cvsubmit-button:hover {
+    background-color: rgb(107, 118, 97);
+    cursor: pointer;
+  }
+
+  h1 {
+    padding: 3%;
+  }
+
+  #post-h3 {
+    margin-bottom: -1%;
+  }
+
+  #cv {
+    padding-bottom: 10%;
+  }
+
+  /*Design av om-text*/
+  #about-text {
+    width: 50%;
+    margin: 5% auto;
+    padding: 2%;
+    border: solid #93a18b;
+  }
+
+  /*Design av knapp*/
+  #delete-button {
+    width: 80px;
+    background-color: #93a18b;
+    border-bottom: 5px solid rgb(107, 118, 97);
+    border-right: 5px solid rgb(107, 118, 97);
+    padding: 1%;
+    border-radius: 5px;
+    margin: 1%;
+    cursor: pointer;
+  }
+
+  #delete-button:hover {
+    background-color: rgb(107, 118, 97);
+  }
