@@ -10,7 +10,7 @@ async function postExperience() {
     cvList.innerHTML="";
 
     //Hämtar in information från API och databasen som ska publiceras
-    let response = await fetch('http://localhost:3000/jobexperiences', {
+    let response = await fetch('https://backend-m3.onrender.com/jobexperiences', {
         method: 'GET',
         headers: {
             'Content-Type': 'application/json'
@@ -46,7 +46,7 @@ async function postExperience() {
 async function deletePost(dataId) {
     
 //Hämtar information från API för att kunna radera inlägg
-    let response = await fetch(`http://localhost:3000/jobexperiences/${dataId}`, {
+    let response = await fetch(`https://backend-m3.onrender.com/jobexperiences/${dataId}`, {
         method: 'DELETE',
         headers: {
             'Content-Type': 'application/json'

@@ -21,7 +21,7 @@ async function addExperience() {
     }
 
     //Kopplar till API och lägger till ny data i databas
-    let response = await fetch('http://localhost:3000/jobexperiences', {
+    let response = await fetch('https://backend-m3.onrender.com/jobexperiences', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
